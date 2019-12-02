@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fireTopLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+<com.camerakit.CameraKitView
+    android:id="@+id/cameraKitView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:adjustViewBounds="true"
+    android:keepScreenOn="true"
+    app:camera_flash="auto"
+    app:camera_facing="front"
+    app:camera_focus="auto"
+    app:camera_permissions="camera">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:text="Just Hold on to take your selfie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/background_dark"
+        android:alpha="0.4"
+        />
+
+
+</com.camerakit.CameraKitView>
+
+<com.vinkisoft.adcapp.GraphicOverlay
+    android:id="@+id/graphicOverlay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+
+    <Button
+        android:id="@+id/buttonDetect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DETECT"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

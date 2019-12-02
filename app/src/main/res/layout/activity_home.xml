@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Choose your selfie"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="#674555"
+        android:textSize="20sp"
+        android:layout_height="60dp" />
+    <Button
+        android:id="@+id/buttonSingleSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Single Selfie"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonSmileSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Smile Selfie"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/buttonPairSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Pair Selfie"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/buttonFriendsSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Friends Selfie"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonWinkSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Wink Selfie"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonFamilysSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Family Selfie"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/buttonGroupSelfie"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="Groupie"
+        android:layout_gravity="center"/>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

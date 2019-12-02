@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223623459520",
+    "firebase_url": "https://adcapp-642cc.firebaseio.com",
+    "project_id": "adcapp-642cc",
+    "storage_bucket": "adcapp-642cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223623459520:android:7af002da1b9fd4e928f325",
+        "android_client_info": {
+          "package_name": "com.vinkisoft.adcapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223623459520-nv58c69na2fbtpth02kq4g5qgdscg064.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-pnJ8-lfJiiqaDsAmWVIUtAc4NZeTing"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223623459520-nv58c69na2fbtpth02kq4g5qgdscg064.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
